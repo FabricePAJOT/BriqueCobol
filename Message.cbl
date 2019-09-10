@@ -10,9 +10,9 @@
 	01 PreDefMsg3	PIC X(18) VALUE 'Thanks to read me'.	
 
 	PROCEDURE DIVISION.
-	DISPLAY PreDefMsg1.
-	DISPLAY PreDefMsg2.
-	DISPLAY PreDefMsg3.
-	DISPLAY ' '
-	DISPLAY PreDefMsg1 PreDefMsg2 PreDefMsg3
+		DISPLAY PreDefMsg1.
+		DISPLAY PreDefMsg2.
+		DISPLAY PreDefMsg3.
+		DISPLAY ' '
+		DISPLAY PreDefMsg1 PreDefMsg2 PreDefMsg3
 	STOP RUN.
